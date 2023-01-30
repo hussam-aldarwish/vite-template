@@ -11,7 +11,8 @@
     "lint:prettier": "prettier --check .",
     "lint:eslint": "eslint .",
     "lint:stylelint": "stylelint \"**/*.css\"",
-    "lint": "run-s lint:*"
+    "lint": "run-s lint:*",
+    "test": "npm run lint"
   },
   "dependencies": {
     "react": "^18.2.0",
