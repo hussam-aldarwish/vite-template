@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx lint-staged
+echo 'running pre-commiting checks...'
+npx lint-staged -q
